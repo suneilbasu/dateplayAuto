@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  note: MyString
+  startdate: 2016-01-12 19:52:11
+  expirydate: 2016-01-12 19:52:11
+
+two:
+  note: MyString
+  startdate: 2016-01-12 19:52:11
+  expirydate: 2016-01-12 19:52:11

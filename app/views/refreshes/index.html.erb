@@ -1,0 +1,14 @@
+<h1>Refreshes#index</h1>
+<% @refreshes.each do |n| %>
+  <li> 
+    <% a =  n.startdate %>
+    <% b =  n.expirydate %>
+    <% c = b-a %>
+    <% present = Time.now %>
+
+    <%= "......you've got #{(c /60/60/24).to_i} days before the new date......"%>
+    <%= "...the current date is#{Time.now.strftime("%d/%m/%Y")}"  %>
+    <%= "...there are #{(present-b).to_i / (24 * 60 * 60)} days between now and the expirydate" %>
+  </li>
+
+<% end %>
