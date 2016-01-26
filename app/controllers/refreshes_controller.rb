@@ -18,6 +18,6 @@ class RefreshesController < ApplicationController
   	end
   end
   def refresh_params
-    params.require(:refresh).permit(:note)
+    params.require(:refresh).permit(:note,:startdate,:expirydate)
   end 
 end

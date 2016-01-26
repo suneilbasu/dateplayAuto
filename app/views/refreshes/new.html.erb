@@ -1,7 +1,8 @@
 <h1>Refreshes#new</h1>
 
 <%= form_for Refresh.new do |n| %>
-  <%= n.text_field :expirydate %>
 
+  <%= n.text_field :startdate,  "data-provide" => 'datepicker'%>
+  <%= n.text_field :expirydate, "data-provide" => 'datepicker'%>
   <%= n.submit "x" %>
 <% end %>
