@@ -19,4 +19,7 @@
 //= require bootstrap-datepicker
 
 //= require_tree .
- 
+  $(document).ready(function(){
+    $('.datepicker').datepicker({
+        dateFormat: "yyyy-mm-dd"
+    });
