@@ -1,3 +1,1 @@
-  $(function() {
-    $( "#datepicker" ).datepicker();
-  });
+$.fn.datepicker.defaults.format = "dd/mm/yyyy";
