@@ -19,7 +19,3 @@
 //= require bootstrap-datepicker
 //= require calander
 //= require_tree .
-$(document).ready(function(){
-  $('.datepicker')#datepicker({
-    dateFormat: "yyyy-mm-dd"
-  });

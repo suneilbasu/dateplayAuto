@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   get 'refreshes/show'
 
-  get 'welcome/index'
+  resources :welcome
   resources :refreshes
 
   # The priority is based upon order of creation: first created -> highest priority.
