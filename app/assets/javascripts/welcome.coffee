@@ -3,8 +3,8 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 $(document).ready ->
   $('#refresh_startdate').datepicker
-    dateFormat: 'yy-mm-dd'
-    firstDay: 1
+    format: 'dd-mm-yyyy'
+    weekStart: 1
   return
 
 # ---
